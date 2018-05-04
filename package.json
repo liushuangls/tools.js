@@ -8,13 +8,14 @@
   },
   "scripts": {
     "test": "jest --watch",
-    "coverage": "jest --coverage",
-    "coveralls": "cat ./coverage/lcov.info | ./node_modules/.bin/coveralls"
+    "coverage": "jest --coverage --colors",
+    "coveralls": "jest --coverage && cat ./coverage/lcov.info | coveralls"
   },
   "jest": {
     "transform": {
       "^.+\\.jsx?$": "babel-jest"
-    }
+    },
+    "collectCoverage": true
   },
   "repository": {
     "type": "git",
