@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<coverage generated="1525444605920" clover="3.2.0">
-  <project timestamp="1525444605920" name="All files">
+<coverage generated="1525444983658" clover="3.2.0">
+  <project timestamp="1525444983658" name="All files">
     <metrics statements="25" coveredstatements="25" conditionals="29" coveredconditionals="29" methods="1" coveredmethods="1" elements="55" coveredelements="55" complexity="0" loc="25" ncloc="25" packages="1" files="1" classes="1">
       <file name="fromNow.js" path="/Users/liushuang/code/git-project/Utils.js/function/fromNow.js">
         <metrics statements="25" coveredstatements="25" conditionals="29" coveredconditionals="29" methods="1" coveredmethods="1"/>

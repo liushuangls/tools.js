@@ -9,7 +9,7 @@
   "scripts": {
     "test": "jest --watch",
     "coverage": "jest --coverage --colors",
-    "coveralls": "jest --coverage && cat ./coverage/lcov.info | coveralls"
+    "coveralls": "cat ./coverage/lcov.info | ./node_modules/coveralls/bin/coveralls.js"
   },
   "jest": {
     "transform": {
