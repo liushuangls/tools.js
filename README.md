@@ -1,5 +1,7 @@
 # Utils [![Coverage Status](https://coveralls.io/repos/github/liushuangbill/Utils.js/badge.svg)](https://coveralls.io/github/liushuangbill/Utils.js)
 
+## sound code: function/
+
 ## API
 ### fromNow(date, [options])
 ```js
