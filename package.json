@@ -1,6 +1,6 @@
 {
   "name": "tools.js",
-  "version": "0.0.1",
+  "version": "0.0.5",
   "description": "a JavaScript library",
   "main": "Utils.js",
   "directories": {
@@ -23,6 +23,10 @@
   },
   "author": "liushuangbill@outlook.com",
   "license": "MIT",
+  "keywords": [
+    "JavaScript",
+    "Node.js"
+  ],
   "bugs": {
     "url": "https://github.com/liushuangbill/Utils.js/issues"
   },
