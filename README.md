@@ -19,7 +19,7 @@ const _ = require('tools.js')
 ```
 
 ## API
-### fromNow(date, [options])
+### fromNow(date[, options])
 ```js
   // 用于计算从过去到现在或未来日期的可读时间差。
   date: timestamp or FormatDateTime
