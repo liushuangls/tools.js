@@ -15,7 +15,7 @@ npm i -S tools.js
 
 In Node.js:
 ```js
-const _ = require('tools')
+const _ = require('tools.js')
 ```
 
 ## API

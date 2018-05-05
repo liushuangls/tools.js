@@ -1,4 +1,5 @@
-language: JavaScript
+language: javascript
+install: true
+script: tools.js
 notifications:
   email: false
-script: true
