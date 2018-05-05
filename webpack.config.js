@@ -5,17 +5,17 @@ module.exports = {
   entry: "./function/index.js",
   output: {
     path: path.resolve(__dirname),
-    filename: "Utils.js"
+    filename: "tools.js",
+    globalObject: "this",
+    library: "_",
+    libraryTarget: "umd"
   },
   module: {
     rules: [
       {
         test: /\.js$/,
         include: path.resolve(__dirname, "function"),
-        loader: "babel-loader",
-        options: {
-          presets: ["es2015"]
-        }
+        loader: "babel-loader"
       }
     ]
   }

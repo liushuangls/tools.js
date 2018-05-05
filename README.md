@@ -1,6 +1,22 @@
-# Utils [![Coverage Status](https://coveralls.io/repos/github/liushuangbill/Utils.js/badge.svg)](https://coveralls.io/github/liushuangbill/Utils.js)
+# tools.js [![Coverage Status](https://coveralls.io/repos/github/liushuangbill/Utils.js/badge.svg)](https://coveralls.io/github/liushuangbill/Utils.js)
 
-## sound code: function/
+## Installation
+In a browser:
+```js
+<script src="tools.js"></script>
+
+use: _.xxx()
+```
+
+Using npm:
+```npm
+npm i -S tools.js
+```
+
+In Node.js:
+```js
+const _ = require('tools')
+```
 
 ## API
 ### fromNow(date, [options])

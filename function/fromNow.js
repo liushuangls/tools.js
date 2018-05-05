@@ -32,6 +32,4 @@ function fromNow(time, now) {
   else return `${y}年以前`;
 }
 
-//fromNow("", "1525399201000");
-
 export default fromNow
