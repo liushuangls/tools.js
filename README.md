@@ -21,16 +21,34 @@ const _ = require('tools.js')
 ```
 
 ## API
+
 ### fromNow(date[, options])
+calculating readable time differences from now and past or future dates.
 ```js
-  // 用于计算从过去到现在或未来日期的可读时间差。
-  date: timestamp or FormatDateTime
+  Arguments:
+    date: timestamp or FormatDateTime
+    options: timestamp or FormatDateTime
 
-  fromNow('2018/01/01');
-  // 2018/01/01 => new Date()
+  Returns:
+    (String): "1秒以前 or 1分钟以前 or 1小时以前 or 1天以前 ..."
 
-  forNow('2018/01/01', '2018/01/02')
-  // 2018/01/01 => 2018/01/02
+  Example:
+    fromNow('2018/01/01');
+    // 2018/01/01 => new Date()
 
-  return: "1秒以前，1分钟以前，1小时以前，1天以前 ..."
+    forNow('2018/01/01', '2018/01/02')
+    // 2018/01/01 => 2018/01/02
+```
+
+### isNumber(num)
+Returns true if the value is a number or string number. 
+```js
+  Arguments: num: any
+
+  Returns: Boolean
+  
+  Example:
+    isNumber('') //false
+    isNumber(Infinity) //false
+    isNumber('123') // true
 ```
