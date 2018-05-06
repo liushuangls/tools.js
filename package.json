@@ -1,8 +1,8 @@
 {
   "name": "tools.js",
-  "version": "0.0.5",
+  "version": "0.0.9",
   "description": "a JavaScript library",
-  "main": "Utils.js",
+  "main": "tools.js",
   "directories": {
     "test": "test"
   },

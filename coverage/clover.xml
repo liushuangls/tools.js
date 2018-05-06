@@ -1,45 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<coverage generated="1525575510050" clover="3.2.0">
-  <project timestamp="1525575510050" name="All files">
-    <metrics statements="32" coveredstatements="32" conditionals="34" coveredconditionals="34" methods="2" coveredmethods="2" elements="68" coveredelements="68" complexity="0" loc="32" ncloc="32" packages="1" files="2" classes="2">
-      <file name="fromNow.js" path="/Users/liushuang/code/git-project/tools.js/function/fromNow.js">
-        <metrics statements="25" coveredstatements="25" conditionals="24" coveredconditionals="24" methods="1" coveredmethods="1"/>
-        <line num="4" count="14" type="cond" truecount="2" falsecount="0"/>
-        <line num="6" count="14" type="cond" truecount="2" falsecount="0"/>
-        <line num="7" count="14" type="cond" truecount="2" falsecount="0"/>
-        <line num="9" count="14" type="cond" truecount="2" falsecount="0"/>
-        <line num="10" count="12" type="cond" truecount="2" falsecount="0"/>
-        <line num="11" count="11" type="cond" truecount="2" falsecount="0"/>
-        <line num="13" count="10" type="stmt"/>
-        <line num="15" count="10" type="stmt"/>
-        <line num="16" count="10" type="stmt"/>
-        <line num="17" count="10" type="stmt"/>
-        <line num="18" count="10" type="stmt"/>
-        <line num="19" count="10" type="stmt"/>
-        <line num="21" count="10" type="stmt"/>
-        <line num="22" count="10" type="stmt"/>
-        <line num="23" count="10" type="stmt"/>
-        <line num="24" count="10" type="stmt"/>
-        <line num="25" count="10" type="stmt"/>
-        <line num="26" count="10" type="stmt"/>
-        <line num="28" count="10" type="cond" truecount="2" falsecount="0"/>
-        <line num="29" count="9" type="cond" truecount="2" falsecount="0"/>
-        <line num="30" count="8" type="cond" truecount="2" falsecount="0"/>
-        <line num="31" count="7" type="cond" truecount="2" falsecount="0"/>
-        <line num="32" count="5" type="cond" truecount="2" falsecount="0"/>
-        <line num="33" count="3" type="cond" truecount="2" falsecount="0"/>
-        <line num="34" count="2" type="stmt"/>
-      </file>
-      <file name="isNumber.js" path="/Users/liushuang/code/git-project/tools.js/function/isNumber.js">
-        <metrics statements="7" coveredstatements="7" conditionals="10" coveredconditionals="10" methods="1" coveredmethods="1"/>
-        <line num="2" count="68" type="stmt"/>
-        <line num="4" count="68" type="cond" truecount="2" falsecount="0"/>
-        <line num="5" count="39" type="cond" truecount="2" falsecount="0"/>
-        <line num="6" count="12" type="cond" truecount="2" falsecount="0"/>
-        <line num="8" count="9" type="cond" truecount="4" falsecount="0"/>
-        <line num="9" count="7" type="stmt"/>
-        <line num="11" count="3" type="stmt"/>
-      </file>
+<coverage generated="1525580023430" clover="3.2.0">
+  <project timestamp="1525580023430" name="All files">
+    <metrics statements="0" coveredstatements="0" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0" elements="0" coveredelements="0" complexity="0" loc="0" ncloc="0" packages="0" files="0" classes="0">
     </metrics>
   </project>
 </coverage>

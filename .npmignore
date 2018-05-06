@@ -7,5 +7,3 @@ webpack.config.js
 .coveralls.yml
 .travis.yml
 .babelrc
-README.md
-package.json
