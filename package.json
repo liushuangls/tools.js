@@ -1,8 +1,8 @@
 {
-  "name": "tools.js",
-  "version": "0.0.9",
-  "description": "a JavaScript library",
-  "main": "tools.js",
+  "name": "js-dates",
+  "version": "0.0.1",
+  "description": "Parse and display dates in javascript. ",
+  "main": "date.js",
   "directories": {
     "test": "test"
   },
