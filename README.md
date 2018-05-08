@@ -20,6 +20,13 @@ In Node.js:
 const _ = require('dates.js')
 ```
 
+ES2015+:
+```
+import { xxx } from 'dates.js'
+or
+import * as _ from 'dates.js'
+```
+
 ## API
 
 ### fromNow(date[, options])
