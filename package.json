@@ -1,8 +1,8 @@
 {
-  "name": "js-dates",
-  "version": "0.0.1",
+  "name": "dates.js",
+  "version": "0.0.2",
   "description": "Parse and display dates in javascript. ",
-  "main": "date.js",
+  "main": "dates.js",
   "directories": {
     "test": "test"
   },
@@ -19,7 +19,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/liushuangbill/Utils.js.git"
+    "url": "git+https://github.com/liushuangbill/dates.js.git"
   },
   "author": "liushuangbill@outlook.com",
   "license": "MIT",

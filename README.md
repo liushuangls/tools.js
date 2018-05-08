@@ -1,23 +1,23 @@
-# tools.js 
-[![Coverage Status](https://coveralls.io/repos/github/liushuangbill/Utils.js/badge.svg)](https://coveralls.io/github/liushuangbill/Utils.js)
-[![Build Status](https://travis-ci.org/liushuangbill/tools.js.svg?branch=master)](https://travis-ci.org/liushuangbill/tools.js)
+# dates.js 
+[![Coverage Status](https://coveralls.io/repos/github/liushuangbill/dates.js/badge.svg?branch=master)](https://coveralls.io/github/liushuangbill/dates.js?branch=master)
+[![Build Status](https://travis-ci.org/liushuangbill/dates.js.svg?branch=master)](https://travis-ci.org/liushuangbill/dates.js)
 
 ## Installation
 In a browser:
 ```js
-<script src="tools.js"></script>
+<script src="dates.js"></script>
 
 use: _.xxx()
 ```
 
 Using npm:
 ```npm
-npm i -S tools.js
+npm i -S dates.js
 ```
 
 In Node.js:
 ```js
-const _ = require('tools.js')
+const _ = require('dates.js')
 ```
 
 ## API
