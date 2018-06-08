@@ -7,7 +7,7 @@ module.exports = {
     path: path.resolve(__dirname),
     filename: "tools.js",
     globalObject: "this",
-    library: "_",
+    library: "tools",
     libraryTarget: "umd"
   },
   module: {

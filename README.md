@@ -7,7 +7,7 @@ In a browser:
 ```js
 <script src="tools.js"></script>
 
-use: _.xxx()
+use: tools.xxx()
 ```
 
 Using npm:
@@ -17,14 +17,14 @@ npm i -S tools.js
 
 In Node.js:
 ```js
-const _ = require('tools.js')
+const tools = require('tools.js')
 ```
 
 ES2015+:
 ```
 import { xxx } from 'tools.js'
 or
-import * as _ from 'tools.js'
+import * as tools from 'tools.js'
 ```
 
 ## API
