@@ -1,8 +1,8 @@
 {
-  "name": "dates.js",
-  "version": "0.0.2",
-  "description": "Parse and display dates in javascript. ",
-  "main": "dates.js",
+  "name": "tools.js",
+  "version": "0.1.0",
+  "description": "a library of javascript. ",
+  "main": "tools.js",
   "directories": {
     "test": "test"
   },
@@ -20,7 +20,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/liushuangbill/dates.js.git"
+    "url": "git+https://github.com/liushuangbill/tools.js.git"
   },
   "author": "liushuangbill@outlook.com",
   "license": "MIT",
@@ -29,9 +29,9 @@
     "Node.js"
   ],
   "bugs": {
-    "url": "https://github.com/liushuangbill/Utils.js/issues"
+    "url": "https://github.com/liushuangbill/tools.js/issues"
   },
-  "homepage": "https://github.com/liushuangbill/Utils.js#readme",
+  "homepage": "https://github.com/liushuangbill/tools.js#readme",
   "devDependencies": {
     "babel-cli": "^6.26.0",
     "babel-core": "^6.26.3",

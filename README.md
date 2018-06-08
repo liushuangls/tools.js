@@ -1,30 +1,28 @@
-# dates.js 
-[![Coverage Status](https://coveralls.io/repos/github/liushuangbill/dates.js/badge.svg?branch=master)](https://coveralls.io/github/liushuangbill/dates.js?branch=master)
-[![Build Status](https://travis-ci.org/liushuangbill/dates.js.svg?branch=master)](https://travis-ci.org/liushuangbill/dates.js)
+# tools.js
 
 ## Installation
 In a browser:
 ```js
-<script src="dates.js"></script>
+<script src="tools.js"></script>
 
 use: _.xxx()
 ```
 
 Using npm:
 ```npm
-npm i -S dates.js
+npm i -S tools.js
 ```
 
 In Node.js:
 ```js
-const _ = require('dates.js')
+const _ = require('tools.js')
 ```
 
 ES2015+:
 ```
-import { xxx } from 'dates.js'
+import { xxx } from 'tools.js'
 or
-import * as _ from 'dates.js'
+import * as _ from 'tools.js'
 ```
 
 ## API

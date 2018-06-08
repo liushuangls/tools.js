@@ -5,7 +5,7 @@ module.exports = {
   entry: "./function/index.js",
   output: {
     path: path.resolve(__dirname),
-    filename: "dates.js",
+    filename: "tools.js",
     globalObject: "this",
     library: "_",
     libraryTarget: "umd"
