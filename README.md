@@ -1,5 +1,5 @@
 # tools.js
-[![Coverage Status](https://coveralls.io/repos/github/liushuangbill/tools.js/badge.svg?branch=master)](https://coveralls.io/github/liushuangbill/tools.js?branch=master)
+[![Coverage Status](https://coveralls.io/repos/github/liushuangbill/dates.js/badge.svg?branch=master)](https://coveralls.io/github/liushuangbill/dates.js?branch=master)
 [![Build Status](https://travis-ci.org/liushuangbill/tools.js.svg?branch=master)](https://travis-ci.org/liushuangbill/tools.js)
 
 ## Installation

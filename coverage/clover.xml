@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<coverage generated="1525763745923" clover="3.2.0">
-  <project timestamp="1525763745923" name="All files">
+<coverage generated="1528417219897" clover="3.2.0">
+  <project timestamp="1528417219897" name="All files">
     <metrics statements="32" coveredstatements="32" conditionals="34" coveredconditionals="34" methods="2" coveredmethods="2" elements="68" coveredelements="68" complexity="0" loc="32" ncloc="32" packages="1" files="2" classes="2">
-      <file name="fromNow.js" path="/Users/liushuang/code/git-project/dates.js/function/fromNow.js">
+      <file name="fromNow.js" path="/Users/liushuang/code/git-project/tools.js/function/fromNow.js">
         <metrics statements="25" coveredstatements="25" conditionals="24" coveredconditionals="24" methods="1" coveredmethods="1"/>
         <line num="4" count="14" type="cond" truecount="2" falsecount="0"/>
         <line num="6" count="14" type="cond" truecount="2" falsecount="0"/>
@@ -27,10 +27,10 @@
         <line num="30" count="8" type="cond" truecount="2" falsecount="0"/>
         <line num="31" count="7" type="cond" truecount="2" falsecount="0"/>
         <line num="32" count="5" type="cond" truecount="2" falsecount="0"/>
-        <line num="33" count="3" type="cond" truecount="2" falsecount="0"/>
+        <line num="33" count="4" type="cond" truecount="2" falsecount="0"/>
         <line num="34" count="2" type="stmt"/>
       </file>
-      <file name="isNumber.js" path="/Users/liushuang/code/git-project/dates.js/function/isNumber.js">
+      <file name="isNumber.js" path="/Users/liushuang/code/git-project/tools.js/function/isNumber.js">
         <metrics statements="7" coveredstatements="7" conditionals="10" coveredconditionals="10" methods="1" coveredmethods="1"/>
         <line num="2" count="68" type="stmt"/>
         <line num="4" count="68" type="cond" truecount="2" falsecount="0"/>
