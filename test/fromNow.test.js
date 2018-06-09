@@ -1,4 +1,4 @@
-import fromNow from '../function/fromNow'
+import fromNow from '../function/date/fromNow'
 
 describe('test fromNow', () => {
   function testFromNow({time, now, str, err=false}) {

@@ -1,4 +1,4 @@
-import isNumber from './isNumber';
+import isNumber from '../number/isNumber';
 
 function fromNow(time, now) {
   now = now || new Date()
@@ -35,3 +35,4 @@ function fromNow(time, now) {
 }
 
 export default fromNow
+

@@ -28,9 +28,25 @@ import * as tools from 'tools.js'
 ```
 
 ## API
+### format(date[, template='YYYY-MM-DD hh:mm'])
+返回指定格式的时间字符串。
+```js
+  Arguments:
+    date: timestamp or FormatDateTime
+    template: String, Y: year, M: month, D: day, h: hour, m: minute, s: second
+    
+  Returns: String
 
-### fromNow(date[, options])
-calculating readable time differences from now and past or future dates.
+  Example:
+    format(1528128000000)
+    // 2018-06-05 00:00
+
+    format(1528128000000, 'YYY/MM/DD h:m:s')
+    // 2018/06/05 0:0:0
+```
+
+### fromNow(date[, options=new Date().getTime()])
+计算并返回可读时间差。
 ```js
   Arguments:
     date: timestamp or FormatDateTime
@@ -48,7 +64,7 @@ calculating readable time differences from now and past or future dates.
 ```
 
 ### isNumber(num)
-Returns true if the value is a number or string number. 
+判断变量是否为Number。
 ```js
   Arguments: num: any
 
