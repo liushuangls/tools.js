@@ -27,7 +27,14 @@ or
 import * as tools from 'tools.js'
 ```
 
-## API
+## 目录
+- [Date](#user-content-date)
+- [Number](#user-content-number)
+
+# API
+
+## Date
+
 ### format(date[, template='YYYY-MM-DD hh:mm'])
 返回指定格式的时间字符串。
 ```js
@@ -62,6 +69,8 @@ import * as tools from 'tools.js'
     forNow('2018/01/01', '2018/01/02')
     // 2018/01/01 => 2018/01/02
 ```
+
+## Number
 
 ### isNumber(num)
 判断变量是否为Number。
