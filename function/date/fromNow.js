@@ -1,5 +1,11 @@
 import isNumber from '../number/isNumber';
 
+/**
+ * 返回可读时间差
+ * @param {Date | string} time 
+ * @param {Date | string | null} now 
+ * @returns {string}
+ */
 function fromNow(time, now) {
   now = now || new Date()
 

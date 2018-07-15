@@ -1,3 +1,8 @@
+/**
+ * 判断一个值是否为number
+ * @param {number} num 
+ * @returns {Boolean}
+ */
 function isNumber(num) {
   const number = +num
   // discard NaN and Infinity

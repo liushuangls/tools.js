@@ -1,5 +1,11 @@
 import isNumber from "../number/isNumber"
 
+/**
+ * 返回格式化时间字符串
+ * @param {Date | string} time 
+ * @param {string} template
+ * @returns {string} 
+ */
 function format(time, template='YYYY-MM-DD hh:mm') {
   time = isNaN(Number(time)) ? time : Number(time)
   const ms = new Date(time).getTime()
