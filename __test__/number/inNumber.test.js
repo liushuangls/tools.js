@@ -1,4 +1,4 @@
-import isNumber from '../function/number/isNumber'
+import isNumber from '../../function/number/isNumber'
 
 describe('test isNumer', () => {
   function testIsNumber(num, bool) {

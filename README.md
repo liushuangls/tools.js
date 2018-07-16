@@ -30,6 +30,7 @@ import * as tools from 'tools.js'
 ## 目录
 - [Date](#user-content-date)
 - [Number](#user-content-number)
+- [Lang]()
 
 # API
 
@@ -73,7 +74,7 @@ import * as tools from 'tools.js'
 ## Number
 
 ### isNumber(num)
-判断变量是否为Number。
+判断`num`是否为`Number`。
 ```js
   Arguments: num: any
 
@@ -83,4 +84,20 @@ import * as tools from 'tools.js'
     isNumber('') //false
     isNumber(Infinity) //false
     isNumber('123') // true
+```
+
+## Lang
+
+### isObjectLike(value)
+判断`value`是否为`object-like`。
+```js
+  Arguments: value: any
+
+  Returns: Boolean
+  
+  Example:
+    isObjectLike({}) // => true
+    isObjectLike([1,2,3]) // => true
+    isObjectLike(Function) // => false
+    isObjectLike(null) // => false
 ```

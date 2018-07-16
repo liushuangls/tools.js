@@ -1,4 +1,4 @@
-import format from '../function/date/format'
+import format from '../../function/date/format'
 
 describe('test format', () => {
   function testFormat({time, template, str, err=false}) {
