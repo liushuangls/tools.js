@@ -30,7 +30,7 @@ import * as tools from 'tools.js'
 ## 目录
 - [Date](#user-content-date)
 - [Number](#user-content-number)
-- [Lang]()
+- [Lang](#user-content-lang)
 
 # API
 
