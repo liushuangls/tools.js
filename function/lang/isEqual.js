@@ -1,7 +1,8 @@
 import isFunction from './isFunction'
+import getTag from './getTag'
 
 /**
- * 判断两个object-like对象是否相等
+ * 判断两个值是否相等
  * @param {*} a
  * @param {*} b
  * @param {*} aStack
@@ -26,12 +27,19 @@ function isEqual (a, b, aStack, bStack) {
   return deepEq(a, b, aStack, bStack)
 };
 
+/**
+ * 用于比较两个对象是否相等
+ * @param {*} a
+ * @param {*} b
+ * @param {*} aStack
+ * @param {*} bStack
+ */
 function deepEq (a, b, aStack, bStack) {
-  const toString = Object.prototype.toString
   // 判断 a 和 b 的内部属性 [[class]] 是否相同
-  const className = toString.call(a)
-  if (className !== toString.call(b)) return false
+  const className = getTag(a)
+  if (className !== getTag(b)) return false
 
+  // 判断包装类型和基本类型
   switch (className) {
     case '[object RegExp]':
     case '[object String]':
@@ -83,14 +91,12 @@ function deepEq (a, b, aStack, bStack) {
   if (areArrays) {
     length = a.length
     if (length !== b.length) return false
-
+    // 递归比较
     while (length--) {
       if (!isEqual(a[length], b[length], aStack, bStack)) return false
     }
-  }
-
-  // 对象判断
-  else {
+  } else {
+    // 对象判断
     const keys = Object.keys(a)
     let key
     length = keys.length

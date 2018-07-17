@@ -88,6 +88,49 @@ import * as tools from 'tools.js'
 
 ## Lang
 
+### isEqual(a, b)
+判断`a`是否等于`b`。
+```js
+  Arguments: a: any, b: any
+
+  Returns: Boolean
+  
+  Example:
+    isEqual(0, -0) // => false
+    isEqual([1,2,3], [1,2,3]) // => true
+    isEqual(null, undefined) // => false
+    isEqual(NaN, NaN) // => true
+    isEqual({a: 1}, {a: 1}) // => true
+```
+
+### isFunction(value)
+判断`value`是否为`Function`。
+```js
+  Arguments: value: any
+
+  Returns: Boolean
+  
+  Example:
+    isFunction(()=>{}) // => true
+    isFunction(async () => {}) // => true
+    isFunction(function* () {}) // => true
+    isFunction({}) // => false
+```
+
+### getTag(value)
+获取`value`的类型。
+```js
+  Arguments: value: any
+
+  Returns: String
+  
+  Example:
+    getTag(()=>{}) // => [object Function ]
+    getTag(async () => {}) // => [object AsyncFunction]
+    getTag(function* () {}) // => [object GeneratorFunction]
+    getTag({}) // => [object Object]
+```
+
 ### isObjectLike(value)
 判断`value`是否为`object-like`。
 ```js

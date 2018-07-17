@@ -1,2 +1,4 @@
 coverage/
 tools.js
+__test__
+webpack.config.js

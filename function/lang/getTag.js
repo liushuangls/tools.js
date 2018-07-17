@@ -8,10 +8,6 @@ const toString = Object.prototype.toString
  * @returns {string} Returns the `toStringTag`.
  */
 function getTag (value) {
-  // 正确区分Undefined 和 null
-  if (value == null) {
-    return value === undefined ? '[object Undefined]' : '[object Null]'
-  }
   return toString.call(value)
 }
 
