@@ -6,7 +6,7 @@ import isNumber from '../number/isNumber'
  * @param {string} template
  * @returns {string}
  */
-function format (time, template = 'YYYY-MM-DD hh:mm') {
+function format (time = new Date(), template = 'y-M-d h:m') {
   time = isNaN(Number(time)) ? time : Number(time)
   const ms = new Date(time).getTime()
 

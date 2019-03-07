@@ -13,6 +13,10 @@ describe('test format', () => {
     }
   }
 
+  it("should return now", () => {
+    expect(typeof format()).toBe('string')
+  })
+
   it("should return '2018-06-05 00:00' when time=1528128000000", () => {
     expect(format(1528128000000)).toBe('2018-06-05 00:00')
   })

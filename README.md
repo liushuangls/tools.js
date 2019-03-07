@@ -19,7 +19,7 @@ const tools = require('tools.js')
 
 ## 目录
 - [Date](#date)
-  - [format](#formatdate-template)
+  - [format](#format-datetemplate)
   - [fromNow](#fromnowdate-date2)
 - [Number](#number)
   - [isNumber](#isnumbernum)
@@ -28,12 +28,12 @@ const tools = require('tools.js')
 
 ## Date
 
-### format(date[, template])
+### format([date, template])
 返回指定格式的时间字符串。
 ```js
   Arguments:
-    date: timestamp or FormatDateTime
-    template: String, Y: year, M: month, D: day, h: hour, m: minute, s: second
+    date: timestamp or FormatDateTime, defalut: new Date()
+    template: y: year, M: month, d: day, h: hour, m: minute, s: second, defalut: 'y-M-d h:m'
     
   Returns: String
 
@@ -50,7 +50,7 @@ const tools = require('tools.js')
 ```js
   Arguments:
     date: timestamp or FormatDateTime
-    options: timestamp or FormatDateTime
+    date2: timestamp or FormatDateTime
 
   Returns:
     (String): "1秒以前 or 1分钟以前 or 1小时以前 or 1天以前 ..."
