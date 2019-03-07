@@ -1,11 +1,11 @@
 import format from '../../function/date/format'
 
 describe('test format', () => {
-  function testFormat({time, template, str, err=false}) {
+  function testFormat({ time, template, str, err = false }) {
     if (err) {
       try {
         format(time, template)
-      } catch(e) {
+      } catch (e) {
         expect(e.message).toBe(str)
       }
     } else {
@@ -49,31 +49,13 @@ describe('test format', () => {
     })
   })
 
-  it("should return '18/6/5 0:0:0'", () => {
-    testFormat({
-      time: 1528128000000,
-      template: 'YY/M/D h:m:s',
-      str: '18/6/5 0:0:0'
-    })
-  })
-
   it(
     "should return '18-6-5 0:0' when time=1528128000000, template='YY-M-D h:m'",
     () => {
-      testFormat({ 
-        time: 1528128000000, 
-        template: 'YY-M-D h:m',
-        str: '18-6-5 0:0'
-      })
-  })
-
-  it(
-    "should return 'Y-6-5 0:0' when time=1528128000000, template='Y-M-D h:m'",
-    () => {
       testFormat({
         time: 1528128000000,
-        template: 'Y-M-D h:m',
-        str: 'Y-6-5 0:0'
+        template: 'YY-M-D h:m',
+        str: '2018-06-05 00:00'
       })
     })
 
@@ -149,5 +131,4 @@ describe('test format', () => {
         err: true
       })
     })
-
 })

@@ -12,8 +12,8 @@ function fromNow (time, now) {
   const ms = isNumber(time) ? +time : new Date(time).getTime()
   const msNow = isNumber(now) ? +now : new Date(now).getTime()
 
-  if (!isNumber(ms)) throw new Error('argv[0] can not convert to Date')
-  if (!isNumber(msNow)) throw new Error('argv[1] can not convert to Date')
+  if (!isNumber(ms)) throw new TypeError('argv[0] can not convert to Date')
+  if (!isNumber(msNow)) throw new TypeError('argv[1] can not convert to Date')
   if (msNow < ms) throw new Error('grav[1] must > grgv[0]')
 
   const gap = msNow - ms
