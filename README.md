@@ -8,25 +8,28 @@ Install
 yarn add tools.js or npm i -S tools.js
 ```
 
+ES2015+:
+```js
+import { xxx } from 'tools.js'
+```
+
 In Node.js:
 ```js
 const tools = require('tools.js')
 ```
 
-ES2015+:
-```
-import { xxx } from 'tools.js'
-```
-
 ## 目录
-- [Date](#user-content-date)
-- [Number](#user-content-number)
+- [Date](#date)
+  - [format](#formatdate-template)
+  - [fromNow](fromNowdate-date2)
+- [Number](#number)
+  - [isNumber](#isNumbernum)
 
 # API
 
 ## Date
 
-### format(date[, template='YYYY-MM-DD hh:mm'])
+### format(date[, template])
 返回指定格式的时间字符串。
 ```js
   Arguments:
@@ -43,7 +46,7 @@ import { xxx } from 'tools.js'
     // 2018/06/05 0:0:0
 ```
 
-### fromNow(date[, options=new Date().getTime()])
+### fromNow(date[, date2])
 计算并返回可读时间差。
 ```js
   Arguments:
