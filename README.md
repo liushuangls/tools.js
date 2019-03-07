@@ -19,7 +19,7 @@ const tools = require('tools.js')
 
 ## 目录
 - [Date](#date)
-  - [format](#format-datetemplate)
+  - [format](#formatdate-template)
   - [fromNow](#fromnowdate-date2)
 - [Number](#number)
   - [isNumber](#isnumbernum)
