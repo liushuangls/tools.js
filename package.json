@@ -21,7 +21,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/liushuangbill/tools.js.git"
+    "url": "git+https://github.com/liushuangls/tools.js.git"
   },
   "author": "liushuangbill@outlook.com",
   "license": "MIT",
@@ -30,9 +30,9 @@
     "Node.js"
   ],
   "bugs": {
-    "url": "https://github.com/liushuangbill/tools.js/issues"
+    "url": "https://github.com/liushuangls/tools.js/issues"
   },
-  "homepage": "https://github.com/liushuangbill/tools.js#readme",
+  "homepage": "https://github.com/liushuangls/tools.js#readme",
   "devDependencies": {
     "@babel/core": "7.3.4",
     "@babel/preset-env": "7.3.4",
