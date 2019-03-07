@@ -2,17 +2,10 @@
 [![Coverage Status](https://coveralls.io/repos/github/liushuangbill/dates.js/badge.svg?branch=master)](https://coveralls.io/github/liushuangbill/dates.js?branch=master)
 [![Build Status](https://travis-ci.org/liushuangbill/tools.js.svg?branch=master)](https://travis-ci.org/liushuangbill/tools.js)
 
-## Installation
-In a browser:
-```js
-<script src="tools.js"></script>
-
-use: tools.xxx()
+## Use
+Install
 ```
-
-Using npm:
-```npm
-npm i -S tools.js
+yarn add tools.js or npm i -S tools.js
 ```
 
 In Node.js:
@@ -23,14 +16,11 @@ const tools = require('tools.js')
 ES2015+:
 ```
 import { xxx } from 'tools.js'
-or
-import * as tools from 'tools.js'
 ```
 
 ## 目录
 - [Date](#user-content-date)
 - [Number](#user-content-number)
-- [Lang](#user-content-lang)
 
 # API
 
@@ -65,7 +55,7 @@ import * as tools from 'tools.js'
 
   Example:
     fromNow('2018/01/01');
-    // 2018/01/01 => new Date()
+    // 2018/01/01 => now
 
     forNow('2018/01/01', '2018/01/02')
     // 2018/01/01 => 2018/01/02
@@ -86,61 +76,3 @@ import * as tools from 'tools.js'
     isNumber('123') // true
 ```
 
-## Lang
-
-### isEqual(a, b)
-判断`a`是否等于`b`。
-```js
-  Arguments: a: any, b: any
-
-  Returns: Boolean
-  
-  Example:
-    isEqual(0, -0) // => false
-    isEqual([1,2,3], [1,2,3]) // => true
-    isEqual(null, undefined) // => false
-    isEqual(NaN, NaN) // => true
-    isEqual({a: 1}, {a: 1}) // => true
-```
-
-### isFunction(value)
-判断`value`是否为`Function`。
-```js
-  Arguments: value: any
-
-  Returns: Boolean
-  
-  Example:
-    isFunction(()=>{}) // => true
-    isFunction(async () => {}) // => true
-    isFunction(function* () {}) // => true
-    isFunction({}) // => false
-```
-
-### getTag(value)
-获取`value`的类型。
-```js
-  Arguments: value: any
-
-  Returns: String
-  
-  Example:
-    getTag(()=>{}) // => [object Function ]
-    getTag(async () => {}) // => [object AsyncFunction]
-    getTag(function* () {}) // => [object GeneratorFunction]
-    getTag({}) // => [object Object]
-```
-
-### isObjectLike(value)
-判断`value`是否为`object-like`。
-```js
-  Arguments: value: any
-
-  Returns: Boolean
-  
-  Example:
-    isObjectLike({}) // => true
-    isObjectLike([1,2,3]) // => true
-    isObjectLike(Function) // => false
-    isObjectLike(null) // => false
-```

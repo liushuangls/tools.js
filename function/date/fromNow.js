@@ -1,35 +1,35 @@
-import isNumber from '../number/isNumber';
+import isNumber from '../number/isNumber'
 
 /**
  * 返回可读时间差
- * @param {Date | string} time 
- * @param {Date | string | null} now 
+ * @param {Date | string} time
+ * @param {Date | string | null} now
  * @returns {string}
  */
-function fromNow(time, now) {
+function fromNow (time, now) {
   now = now || new Date()
 
   const ms = isNumber(time) ? +time : new Date(time).getTime()
   const msNow = isNumber(now) ? +now : new Date(now).getTime()
 
-  if (!isNumber(ms)) throw new Error("argv[0] can not convert to Date")
-  if (!isNumber(msNow)) throw new Error("argv[1] can not convert to Date")
-  if (msNow < ms) throw new Error("grav[1] must > grgv[0]")
+  if (!isNumber(ms)) throw new Error('argv[0] can not convert to Date')
+  if (!isNumber(msNow)) throw new Error('argv[1] can not convert to Date')
+  if (msNow < ms) throw new Error('grav[1] must > grgv[0]')
 
   const gap = msNow - ms
 
-  const msMinute = 60 * 1000,
-    msHour = msMinute * 60,
-    msDay = msHour * 24,
-    msMonth = msDay * 30,
-    msYear = msDay * 365
+  const msMinute = 60 * 1000
+  const msHour = msMinute * 60
+  const msDay = msHour * 24
+  const msMonth = msDay * 30
+  const msYear = msDay * 365
 
-  const se = Math.floor(gap / 1000),
-    mi = Math.floor(gap / msMinute),
-    hour = Math.floor(gap / msHour),
-    day = Math.floor(gap / msDay),
-    mo = Math.floor(gap / msMonth),
-    y = Math.floor(gap / msYear);
+  const se = Math.floor(gap / 1000)
+  const mi = Math.floor(gap / msMinute)
+  const hour = Math.floor(gap / msHour)
+  const day = Math.floor(gap / msDay)
+  const mo = Math.floor(gap / msMonth)
+  const y = Math.floor(gap / msYear)
 
   if (se === 0) return '刚刚'
   else if (se < 60) return `${se}秒以前`
@@ -41,4 +41,3 @@ function fromNow(time, now) {
 }
 
 export default fromNow
-
