@@ -32,8 +32,8 @@ const tools = require('tools.js')
 返回指定格式的时间字符串。
 ```js
   Arguments:
-    date: timestamp or FormatDateTime, defalut: new Date()
-    template: y: year, M: month, d: day, h: hour, m: minute, s: second, defalut: 'y-M-d h:m'
+    date: timestamp or FormatDateTime; defalut: new Date()
+    template: y: year, M: month, d: day, h: hour, m: minute, s: second; defalut: 'y-M-d h:m'
     
   Returns: String
 
