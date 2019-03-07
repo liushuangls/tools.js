@@ -10,7 +10,6 @@
     "test": "jest --watch",
     "coverage": "jest --coverage --colors",
     "coveralls": "cat ./coverage/lcov.info | ./node_modules/coveralls/bin/coveralls.js",
-    "travis": "jest",
     "build": "webpack"
   },
   "jest": {
