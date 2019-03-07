@@ -33,6 +33,11 @@
     "url": "https://github.com/liushuangls/tools.js/issues"
   },
   "homepage": "https://github.com/liushuangls/tools.js#readme",
+  "files": [
+    "LICENSE",
+    "README.md",
+    "tools.js"
+  ],
   "devDependencies": {
     "@babel/core": "7.3.4",
     "@babel/preset-env": "7.3.4",

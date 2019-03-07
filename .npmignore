@@ -1,9 +1,0 @@
-/node_modules
-/coverage
-/test
-/function
-
-webpack.config.js
-.coveralls.yml
-.travis.yml
-.babelrc
