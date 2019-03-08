@@ -27,8 +27,8 @@ import { xxx } from 'tools.js'
 返回指定格式的时间字符串。
 ```js
   Arguments:
-    date: timestamp or FormatDateTime; defalut: new Date()
-    template: y: year, M: month, d: day, h: hour, m: minute, s: second; defalut: 'y-M-d h:m'
+    [date=new Date()](timestamp or Date)
+    [template='y-M-d h:m'](String): y: year, M: month, d: day, h: hour, m: minute, s: second
     
   Returns: String
 
@@ -37,15 +37,15 @@ import { xxx } from 'tools.js'
     // 2018-06-05 00:00
 
     format(1528128000000, 'YYY/MM/DD h:m:s')
-    // 2018/06/05 0:0:0
+    // 2018/06/05 00:00:00
 ```
 
 ### fromNow(date[, date2])
 计算并返回可读时间差。
 ```js
   Arguments:
-    date: timestamp or FormatDateTime
-    date2: timestamp or FormatDateTime
+    date(timestamp or FormatDateTime)
+    [date2 = new Date()](timestamp or FormatDateTime)
 
   Returns:
     (String): "1秒以前 or 1分钟以前 or 1小时以前 or 1天以前 ..."
