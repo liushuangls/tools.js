@@ -12,11 +12,6 @@ ES2015+:
 import { xxx } from 'tools.js'
 ```
 
-In Node.js:
-```js
-const tools = require('tools.js')
-```
-
 ## 目录
 - [Date](#date)
   - [format](#formatdate-template)

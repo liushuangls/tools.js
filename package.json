@@ -1,6 +1,6 @@
 {
   "name": "tools.js",
-  "version": "0.2.6",
+  "version": "0.2.7",
   "description": "A JavaScript utility library.",
   "main": "tools.js",
   "directories": {
@@ -35,7 +35,8 @@
   "files": [
     "LICENSE",
     "README.md",
-    "tools.js"
+    "tools.js",
+    "tools.d.ts"
   ],
   "devDependencies": {
     "@babel/core": "7.3.4",

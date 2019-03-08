@@ -2,3 +2,4 @@ coverage/
 tools.js
 __test__
 webpack.config.js
+tools.d.ts
